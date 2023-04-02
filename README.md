@@ -18,8 +18,12 @@
 </p>
 
 <h2> Linguagens e Frameworks utilizados: </h2>
-<img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<div style="display: inline-block">
+  <img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+  <img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+</div>
 <br><br>
-<img height="50px" src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/ejs.png" />
-<img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+<div style="display: inline-block">
+  <img height="50px" src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/ejs.png" />
+  <img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+</div>
