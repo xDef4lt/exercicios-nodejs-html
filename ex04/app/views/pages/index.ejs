@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    
+    <title>Exercício 4</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 4 - NodeJS</h1>
+    </header>
+
+    <article>
+        <p>
+            4 - Desenvolva um programaem JS que receba um valor 
+            digitado pelo usuário e devolva o texto "o valor é 
+            maior ou igual a 10" caso isso seja verdade, senão 
+            imprima "o valor não é maior ou igual a 10"
+        </p>
+    </article>
+
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Verificador de Números 2.0</legend>
+                <div class="input-container">
+                    <label for="input-num">Número:</label>
+                    <input type="number" step="any" name="num" id="input-num" required>
+                </div>
+                <div id="resultado"><!--Resposta do servidor--></div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script charset="UTF-8" src="/assets/js/script.js"></script>
+</body>
+</html>

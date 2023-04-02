@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <style>
+        @font-face {
+            font-family: "Typo Formal";
+            src: url('/assets/fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+    <title>Exercício 2</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 2 - NodeJS</h1>
+    </header>
+
+    <article>
+        <p>
+            2 - Desenvolva um programaem JSque receba a altura e o sexo de uma pessoa,
+            calcule e devolva para o console do webstorm, o seu peso ideal; Utilize as
+            seguintes fórmulas - onde H é altura do usuário:
+        </p>
+        <ul>
+            <li>
+                para homens: (72,7 * H) - 58
+            </li>
+            <li>
+                para mulheres: (62,1 * H) - 44,7
+            </li>
+        </ul>
+    </article>
+
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Peso Ideal</legend>
+                <div class="inline-container">
+                    <div class="input-container">
+                        <label for="input-altura">Altura:</label>
+                        <input type="number" step="any" name="altura" id="input-altura" required>
+                    </div>
+                    <div class="input-container">
+                        <label>Sexo:</label>
+                        <div class="radio-container">
+                            <label for="inputM">Masculino</label>
+                            <input type="radio" value="m" name="sexo" id="inputM" required>
+                        </div>
+                        <div class="radio-container">
+                            <label for="inputF">Feminino</label>
+                            <input type="radio" value="f" name="sexo" id="inputF" required>
+                        </div>
+                    </div>
+                </div>
+                <div id="resultado"><!--Resposta do servidor--></div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script charset="UTF-8" src="/assets/js/script.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <style>
+        @font-face {
+            font-family: "Typo Formal";
+            src: url('/assets/fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+    <title>Exercício 6</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 6 - NodeJS</h1>
+    </header>
+
+    <article>
+        <p>
+            6 - Desenvolva um programa em JS que 
+            receba um valor qualquer e calcule o 
+            seu fatorial (!),  sabendo que fatorial 
+            de um número é: 
+        </p>
+        <ul type="none">
+            <li>
+                2! = 2*1 = 2
+            </li>
+        </ul>
+    </article>
+
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Fatorial</legend>
+                <div class="inline-container">
+                    <div class="input-container">
+                        <label for="input-num">Número:</label>
+                        <input type="number" step="any" name="num" id="input-num" required>
+                    </div>
+                    <div id="resultado" style="font-family: Arial;"><!--Resposta do servidor--></div>
+                </div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script charset="UTF-8" src="/assets/js/script.js"></script>
+</body>
+</html>

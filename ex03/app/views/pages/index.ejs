@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    
+    <title>Exercício 3</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 3 - NodeJS</h1>
+    </header>
+
+    <article>
+        <p>
+            3 - Desenvolva um  programaem  JS que  calcule  
+            e devolvapara o  console  do  webstorm,o  salário 
+            reajustado de um funcionário de acordo com a 
+            seguinte regra: 
+        </p>
+        <ul>
+            <li>
+                salários até 300, reajuste de 50% 
+            </li>
+            <li>
+                salários maiores que 300, reajuste de 30%
+            </li>
+        </ul>
+    </article>
+
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Cálculo de Reajuste</legend>
+                
+                <div class="input-container">
+                    <label for="input-salario">Salário:</label>
+                    <input type="number" step="any" name="salario" id="input-salario" required>
+                </div>
+                <div id="resultado"><!--Resposta do servidor--></div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script charset="UTF-8" src="/assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <style>
+        @font-face {
+            font-family: "Typo Formal";
+            src: url('/assets/fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+    <title>Exercício 1</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 1 - NodeJS</h1>
+        <p>
+            1 - Desenvolva um programaem JS que receba 
+            um valor digitado pelo usuário e verifique 
+            se esse valor é positivo, negativo ou igual 
+            a zero e devolva para o console do webstorm, a 
+            informação: <br>
+            "Valor Positivo"<br>
+            "Valor Negativo"<br>
+            "Igual a Zero" 
+        </p>
+    </header>
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Verificando Números</legend>
+                <label for="input-num">Número:</label>
+                <input type="number" name="numero" id="input-num">
+                <div id="resultado"><!--Resposta Servidor--></div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script charset="UTF-8" src="/assets/js/script.js"></script>
+</body>
+</html>
