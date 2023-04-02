@@ -25,5 +25,5 @@
 <br><br>
 <div style="display: inline-block">
   <img height="50px" src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/ejs.png" />
-  <img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+  <img height="50px" style="background: #ddd" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
 </div>
