@@ -22,13 +22,13 @@
 <ul>
   <li> Inicie o editor do Github;
   <li> Abra o terminal, e navegue pelas pastas usando o comando <strong>cd</strong> - Exemplo:
-  <p align="center"><strong>cd ex01</strong></p>
+  <p><strong>cd ex01</strong></p>
   <li> Então, digite o comando:
-  <p align="center"><strong>node app.js</strong></p>
+  <p><strong>node app.js</strong></p>
   <li> Após isso, você poderá acessar a página pelo localhost:3000 e visualizar a página
 </ul>
 
-<h2> Linguagens e Frameworks utilizados: </h2>
+<h2>➢ Linguagens e Frameworks utilizados: </h2>
 <div style="display: inline-block">
   <img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
   <img height="50px" src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/ejs.png" />
