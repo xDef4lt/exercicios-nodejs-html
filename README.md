@@ -4,7 +4,7 @@
 <h2 align="center">Repositório para estudos de lógica de programação utilizando HTML e NodeJS</h2>
 
 
-<h2> Sobre</h2>
+<h2>➢ Sobre</h2>
 
 <p>
   Este repositório contém alguns exercícios que envolvem lógica de programaço em <strong>NodeJS</strong>.<br>
@@ -16,6 +16,17 @@
   dados fornecidos pelo usuário. No servidor, o Node irá pegar e tratar esses dados, dando uma resposta para o
   cliente
 </p>
+
+<h2>➢ Como acessar as páginas </h2>
+
+<ul>
+  <li> Inicie o editor do Github;
+  <li> Abra o terminal, e navegue pelas pastas usando o comando <strong>cd</strong> - Exemplo:
+  <p align="center"><strong>cd ex01</strong></p>
+  <li> Então, digite o comando:
+  <p align="center"><strong>node app.js</strong></p>
+  <li> Após isso, você poderá acessar a página pelo localhost:3000 e visualizar a página
+</ul>
 
 <h2> Linguagens e Frameworks utilizados: </h2>
 <div style="display: inline-block">
