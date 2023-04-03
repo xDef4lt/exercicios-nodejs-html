@@ -73,6 +73,9 @@ input[type="radio"]::after {
     border: .5px solid dimgrey;
     padding: 5px;
 }
+p {
+    width: 350px;
+}
 input[type="radio"]:checked:after {
     background: dimgrey;
 }
