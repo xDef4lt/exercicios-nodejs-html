@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta name="author" content="Arthur Santos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <style>
+        @font-face {
+            font-family: "Typo Formal";
+            src: url('/assets/fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+    <title>Exercício 5</title>
+</head>
+<body>
+    <header>
+        <h1>Exercício 5 - NodeJS</h1>
+    </header>
+
+    <article>
+        <p>
+            5 - Desenvolva um programaem JS que receba um 
+            valor positivo qualquer e devolva os valores de 
+            0 até o valor recebido, exemplo:
+        </p>
+        <ul>
+            <li>Valor recebido = 2 </li>
+            <li>Página de resultado = 0, 1, 2</li>
+        </ul>
+    </article>
+
+    <div>
+        <form action="/enviar" method="post" id="formulario">
+            <fieldset>
+                <legend>Contagem de Números</legend>
+                <div class="inline-container">
+                    <div class="input-container">
+                        <label for="input-start">Início:</label>
+                        <input type="number" step="any" name="inicio" id="input-start" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="input-end">Fim</label>
+                        <input type="number" name="fim" id="input-end" step="any">
+                    </div>
+                </div>
+                <div id="resultado" style="font-family: Arial;"><!--Resposta do servidor--></div>
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Scripts-->
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
